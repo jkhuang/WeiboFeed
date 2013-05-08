@@ -1,0 +1,28 @@
+#jsWeibo {
+    width: 300px;
+    font-family: georgia;
+    font-size: 15px;
+    color: #333333;
+    padding: 10px;
+}
+ 
+#jsWeibo .weibo {
+    margin: 0 auto 15px auto;
+    padding: 0 0 15px 0;
+    border-bottom: 1px dotted #ccc;
+}
+ 
+#jsWeibo .weibo a {
+    text-decoration: none;
+    color: #13c9d0;
+}
+ 
+#jsWeibo .weibo a:hover {
+    text-decoration: underline;
+}
+ 
+#jsWeibo .weibo .time {
+    font-size: 10px;
+    font-style: italic;
+    color: #666666;
+}

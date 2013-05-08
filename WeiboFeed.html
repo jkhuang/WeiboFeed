@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Weibo Feed</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/WeiboFeed.js"></script>
+    <!--&lt;!&ndash;&ndash;&gt;-->
+    <!--<script src="http://api.t.sina.com.cn/statuses/user_timeline/jkhuang23.json?source=3935721991&screen_name=jkhuang23&callback=myFunction">-->
+    <!--</script>-->
+
+    <!--<script type="text/javascript">-->
+    <!--//添加<script>标签的方法-->
+<!--//    function addScriptTag(src){-->
+<!--//    var script = document.createElement('script');-->
+<!--//    script.setAttribute("type","text/javascript");-->
+<!--//    script.src = src;-->
+<!--//    document.body.appendChild(script);-->
+<!--//    }-->
+
+<!--//    window.onload = function(){-->
+<!--//    //搜索apple，将自定义的回调函数名result传入callback参数中-->
+<!--//    addScriptTag("http://api.t.sina.com.cn/statuses/user_timeline/jkhuang23.json?source=3935721991&screen_name=jkhuang23&callback=myFunction");-->
+<!--//-->
+<!--//    }-->
+
+<!--//    $(document).ready(function() {-->
+<!--//-->
+<!--//    })-->
+    <!--//自定义的回调函数result-->
+    <!--function myFunction(data) {-->
+    <!--//我们就简单的获取apple搜索结果的第一条记录中url数据-->
+    <!--showMyData(data);-->
+    <!--}-->
+
+        <!--function showMyData(data) {-->
+                <!--var html = '<div class="weibo">WEIBO_TEXT<div class="time">AGO</div>';-->
+
+                <!--// append weibo into page-->
+                <!--for (var i = 0; i < data.length; i++) {-->
+                    <!--$(JQWeibo.appendTo).append(-->
+                        <!--html.replace('WEIBO_TEXT', JQWeibo.ify.clean(data[i].text))-->
+                            <!--.replace(/USER/g, data[i].user.screen_name)-->
+                            <!--.replace('AGO', JQWeibo.timeAgo(data[i].created_at))-->
+                            <!--.replace(/ID/g, data[i].id_str)-->
+                    <!--);-->
+                <!--}-->
+<!--}-->
+    <!--</script>-->
+
+
+    <link rel="stylesheet" type="text/css" href="css/WeiboFeed.css">
+</head>
+<body>
+<div id="jsWeibo"></div>
+<div id="twitterStream"></div>
+
+</body>
+<script>
+
+</script>
+</html>
